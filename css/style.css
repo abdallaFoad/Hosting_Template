@@ -1,0 +1,260 @@
+
+/*start main*/
+
+body{box-sizing:border-box;font-family: sans-serif;}
+/*end main*/
+
+/*start frist page header + content*/
+.frist-page{background-image:url('../images/12355.jpg');background-size:cover;color:#fff;}
+
+/*start header in the frist page*/
+.frist-page header{overflow:hidden;}
+
+.frist-page header .h1-head{
+    width:25%;
+    float:left;
+    text-transform: uppercase;
+    letter-spacing:3px;
+    margin-top:30px;
+    margin-left:5%;
+}
+
+.frist-page header .h1-head span{color:red}
+
+.frist-page header .navbar{
+    width:45%;
+    float:right;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-left:25%
+}
+
+.frist-page header .navbar ul{list-style:none;}
+
+.frist-page header .navbar ul li{display:inline-block;padding:10px;margin-left:30px;}
+
+.frist-page header .navbar ul li a{text-decoration:none;color:#fff;}
+
+/*end header in the frist page*/
+
+/*start contant in the frist page*/
+.frist-page .content{text-align: center;margin-top:150px}
+
+.frist-page .content h4{
+    text-transform: uppercase;
+    padding:10px;
+    margin:10px;
+    word-spacing:2px;
+    letter-spacing:2px;
+}
+
+.frist-page .content h1{
+    text-transform: uppercase;
+    padding:10px;
+    margin:30px 10px;
+    word-spacing:2px;
+    letter-spacing:2px;
+    font-size:50px;
+}
+
+.frist-page .content p{margin-bottom:30px;}
+
+.frist-page .content p span{display:block}
+
+.frist-page .content button{
+    margin-bottom:200px;
+    text-transform: uppercase;
+    padding:17px 12px;
+    border-radius: 30px;
+    border:2px solid #fff;
+    background-color:#07074c;
+    color:#fff
+}
+/*end contant in the frist page*/
+/*end frist page header + content*/
+
+/*start second page search*/
+.search{overflow:hidden;text-transform: capitalize;}
+
+.search .left{
+    width:20%;
+    float:left;
+    margin-top:100px;
+    text-align: center;
+    font-size: 20px;
+    font-weight:bold
+        
+}
+
+.search .left span{display:block;}
+
+.search .right{
+    width:80%;
+    float:left;
+    margin-top:120px;
+    
+}
+
+.search .right input[ type="search"]{
+   padding:15px;
+    width:80%;
+    border:2px solid #43bfac;
+    text-transform: capitalize;
+}
+
+.search .right button{
+    padding:18px 35px;
+    background-color:blue;
+    border:0;
+    text-transform: capitalize;
+    color:#fff;
+    display:inline
+}
+
+.radio{margin:30px 0 100px 20%;}/*it is class radio in the search part */
+
+ .radio input[type="radio"]{margin-left:10px}
+/*end second page search*/
+
+/*start div pricing*/
+.pricing{background-color:#654343;}
+
+.pricing h2{text-align:center;font-size:35px;color:#fff;text-transform: capitalize;padding:30px;}
+
+/*end div pricing*/
+
+/*start container div in the pricing */
+.container .boxs{width:90%;overflow:hidden;margin:50px 4% 20px 5%}
+
+.container .frist-box{width:27.33333%;float:left;margin:0 4% 0 2%;}
+
+.container .second-box{width:27.33333%;float:left;margin:0 4% 0 2%;font-family:sans-serif}
+
+.container .thrid-box{width:27.33333%;float:right;margin:0 4% 0 2%}
+
+.container ul{list-style:none;text-align: center;margin:5px 25px 5px 0;text-transform: capitalize;}
+
+.container ul li{
+    padding:10px;
+    margin:0  5px 0 5px;
+    border:1px solid #ddd;
+    background-color:#fff;
+}
+
+.container ul li span{color:#4c4141;font-weight:bold}/*the span in the li*/
+
+.container ul .button{background-color:#f9f1f1;margin-bottom:80px;}/*the li  class button */
+
+.container ul button{
+    background-color:#9c9233;
+    color:#fff;
+    padding:10px 20px;
+    margin:5px 30px;
+    border:none
+}
+
+.container ul .simple{
+    padding:15px 15px;
+    font-size:30px;
+    text-transform: capitalize;
+    color:#fff;
+    background-color:#000;
+    border:none
+}
+
+.container ul .simple-second{/*it is simple in the second box*/
+    background-color:#9c9233;
+     padding:15px 15px;
+    font-size:30px;
+    text-transform: capitalize;
+    color:#fff;
+    border:none
+}
+
+.container ul .price{
+    background-color:#f9f1f1;
+    color:#4c4141;
+    padding:15px 15px;
+    font-size:30px;
+}
+
+/*end container div in the pricing */
+
+/*start contact */
+.contact{
+    background-color:cornflowerblue;
+    text-transform: capitalize;
+    
+    
+        
+}
+
+.contact h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding:50px;
+    
+}
+
+.contact form{margin-left:40px;}
+
+.contact form label{font-weight:bold} 
+
+.contact form .type{/*it is class to "input type text" and "input type email"*/
+    display:block;
+     margin:10px 0 20px 0;
+    width:90%;
+    padding:10px;
+    text-transform:capitalize
+  }
+
+.contact form textarea{
+    display:block;
+     margin:10px 0 20px 0;
+    text-transform:capitalize;
+    width:92%;
+    height:200px;
+}
+
+.contact form input[type="submit"]{
+    padding:10px 20px;
+    margin-bottom:20px;
+    background-color:darkorchid;
+    border:0;
+    color:#fff;
+    text-transform:capitalize
+}
+/*end contact */
+
+/*start footer*/
+footer{background-color:#654343;}
+
+footer p{padding:20px;text-align: center;text-transform: capitalize;color:#fff}
+
+footer p span{text-transform: uppercase}
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
